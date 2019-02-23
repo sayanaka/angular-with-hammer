@@ -2,7 +2,7 @@ import { HammerGestureConfig } from '@angular/platform-browser';
 
 export class MyHammerConfig extends HammerGestureConfig {
   /** 追加したいイベント名 */
-  events: string[] = ['twosecondspress'];
+  events: string[] = ['twosecondspress', 'doubletap'];
 
   /** buildHammer */
   buildHammer(element: HTMLElement) {
